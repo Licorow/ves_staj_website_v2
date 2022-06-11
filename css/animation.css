@@ -1,0 +1,54 @@
+@media screen and (max-width: 1200px) {
+    .dizayn01{
+        animation: arkaPlan;
+        animation-duration: 10s;
+        animation-iteration-count: 1;
+    }
+    
+}
+    
+
+
+
+    @keyframes myColorAnimation{
+        0%{
+            background-color: rgb(51, 102, 153);
+            color: white;
+            transform: translateX(-200px);
+        }
+        100%{
+            background-color: white;
+            color: rgb(51, 102, 153);;
+            transform: translateX(0);
+        }
+    }
+    
+    
+    @keyframes myRotateAnimation{
+        100%{transform: rotateZ(360deg);}
+    }
+    @keyframes arkaPlan{
+        0%{
+            background-size: 800% auto;
+            
+        }
+        100%{
+            background-size: 300% auto;
+        }
+    }
+    @keyframes myTranslateAnimation{
+        50%{transform: translateX(500px);}
+    }
+    @keyframes myScaleAnimation{
+        50%{transform: scale(1.5, 1.5);}
+    }
+    @keyframes myOpacityAnimation{
+        0%{opacity: 0;}
+        50%{opacity: 1;}
+        100%{opacity: 0;}
+    }
+    @keyframes myFontAnimation{
+        0%{font-size: 85px;}
+        50%{font-size: 100px;}
+        100%{font-size: 85px;}
+    }

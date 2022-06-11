@@ -1,0 +1,54 @@
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow-x: hidden;
+
+    font-family: 'Righteous', cursive;
+    z-index: 10;
+}
+header ul.navBar{
+    background-color: transparent;
+    text-align: center;
+}   
+header ul.navBar li{
+    background-color: transparent;
+    display: inline-block;
+    overflow: hidden;
+    min-width: 10%;
+    font-size: 110%;
+    margin: 1%;
+
+} 
+header ul.navBar li p{
+    color: white;
+    width: 100%;
+    display: block;
+    padding: 4%;
+    text-decoration: none;
+    border: 5px solid transparent;
+
+    background: -webkit-linear-gradient(rgb(238, 238, 238), rgb(0, 255, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+    cursor: pointer;
+
+} 
+header ul.navBar li p:hover:not(.icon){
+    border-bottom-color: rgb(0, 225, 255);
+    color: gold;
+} 
+
+#navBarMobile{
+    width: 40%;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    background-color: aliceblue;
+    right: 5%;
+    top: 100%;
+}

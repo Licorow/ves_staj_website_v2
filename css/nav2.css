@@ -1,0 +1,56 @@
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  .topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 2%;
+
+    border: 5px solid transparent;
+
+    background: -webkit-linear-gradient(rgb(238, 238, 238), rgb(0, 255, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+  .topnav a:not(.active){
+    float: right;
+  }
+
+
+
+  
+  .topnav a:hover {
+    border-bottom-color: rgb(0, 225, 255);
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+#l2{
+  display: none;
+}
+
+.l1{
+  display: contents;
+}
+.l2{
+  display: none;
+}
+
+
+
+

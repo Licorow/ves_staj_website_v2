@@ -1,0 +1,58 @@
+.endustiriyel{
+    color: white;
+}
+.endustiriyel h3{
+    font-size: 150%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+
+}
+.endustiriyel h4{
+    font-size: 100%;
+    padding: 1%;
+    margin: 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.endustiriyel ul{
+    list-style: circle;
+    margin: 0;
+    padding: 0;
+}
+.endustiriyel ul li{
+    display: inline-table;
+    width: 40%;
+    padding: 3%;
+    margin: 2% 3%;
+    border: 2px solid rgb(240, 240, 240);
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 238, 255, 0.2), 0 4px 10px 0 rgba(0, 255, 234, 0.19);
+    transition: all 0.2s;
+    background-color: black;
+    
+}
+
+.endustiriyel ul li h2{
+    font-size: 130%;
+    padding: 0;
+    margin: 0 0 4% 0;
+    text-align: left;
+}
+.endustiriyel ul li p{
+    font-size: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.ok{
+    color: rgb(0, 225, 255);
+    font-size: 150%;
+    text-shadow: 1px 1px 1px black,
+    -1px -1px 1px black,
+    -1px 1px 1px black,
+    1px -1px 1px black;
+}

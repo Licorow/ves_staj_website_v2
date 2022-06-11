@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#site{
+    background-color: rgb(0, 0, 0);
+    min-height: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
